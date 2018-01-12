@@ -1,18 +1,14 @@
-.bloco{
+.linha{
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;
+	
 }
 
-.bloco .linha{
-	display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.coluna-1{
+.linha .grid-s1{
 	background: #F44336;
-	flex-basis: 8.33333333333%;
+	width: 8.33333333333%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -20,9 +16,9 @@
 	color: #ffffff;
 }
 
-.coluna-2{
+.linha .grid-s2{
 	background: #E91E63;
-	flex-basis: 16.666666666%;
+	width: 16.666666666%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -30,9 +26,9 @@
 	color: #ffffff;
 }
 
-.coluna-3{
+.linha .grid-s3{
 	background: #9C27B0;
-	flex-basis: 25%;
+	width: 25%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -40,9 +36,9 @@
 	color: #ffffff;
 }
 
-.coluna-4{
+.linha .grid-s4{
 	background: #673AB7;
-	flex-basis: 33.333333333%;
+	width: 33.333333333%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -50,19 +46,19 @@
 	color: #ffffff;
 }
 
-.coluna-5{
+.linha .grid-s5{
 	background: #3F51B5;
-	flex-basis: 41.66666666%;
+	width: 41.66666666%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
 	border: 1px solid #ffffff;
-	color: #ffffff;
+	color: #ffffff;	
 }
 
-.coluna-6{
+.linha .grid-s6{
 	background: #2196F3;
-	flex-basis: 50%;
+	width: 50%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -70,9 +66,9 @@
 	color: #ffffff;
 }
 
-.coluna-7{
+.linha .grid-s7{
 	background: #03A9F4;
-	flex-basis: 58.33333333%;
+	width: 58.33333333%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -80,9 +76,9 @@
 	color: #ffffff;
 }
 
-.coluna-8{
+.linha .grid-s8{
 	background: #00BCD4;
-	flex-basis: 66.66666666%;
+	width: 66.66666666%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -90,9 +86,9 @@
 	color: #ffffff;
 }
 
-.coluna-9{
+.linha .grid-s9{
 	background: #009688;
-	flex-basis: 75%;
+	width: 75%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -100,9 +96,9 @@
 	color: #ffffff;
 }
 
-.coluna-10{
+.linha .grid-s10{
 	background: #4CAF50;
-	flex-basis: 83.333333333%;
+	width: 83.333333333%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -110,9 +106,9 @@
 	color: #ffffff;
 }
 
-.coluna-11{
+.linha .grid-s11{
 	background: #8BC34A;
-	flex-basis: 91.666666666%;
+	width: 91.666666666%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
@@ -120,9 +116,9 @@
 	color: #ffffff;
 }
 
-.coluna-12{
+.linha .grid-s12{
 	background: #FFEB3B;
-	flex-basis: 100%;
+	width: 100%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
