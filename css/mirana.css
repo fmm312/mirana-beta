@@ -1,0 +1,557 @@
+/*-------------------------------------
+	MIRANA CSS FRAMEWORK - VERSÃO BETA
+---------------------------------------/*
+
+
+
+/*------------------
+		BASE
+-------------------- */
+.line{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;	
+}
+
+
+
+/* ------------------------ 
+		SMALL DEVICES 
+---------------------------*/
+
+/* grid small devices*/
+.line .grid-sm-1{
+	width: 8.33333333333%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-2{
+	width: 16.666666666%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-3{
+	width: 25%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-4{
+	width: 33.333333333%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-5{
+	width: 41.66666666%;
+	box-sizing: border-box;	
+}
+
+.line .grid-sm-6{
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-7{
+	width: 58.33333333%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-8{
+	width: 66.66666666%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-9{
+	width: 75%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-10{
+	width: 83.333333333%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-11{
+	width: 91.666666666%;
+	box-sizing: border-box;
+}
+
+.line .grid-sm-12{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+/* pushs grid small devices */
+.line .grid-sm-push1{
+	margin-left: 8.33333333333%;
+}
+
+.line .grid-sm-push2{
+	margin-left: 16.666666666%;
+}
+
+.line .grid-sm-push3{
+	margin-left: 25%;
+}
+
+.line .grid-sm-push4{
+	margin-left: 33.333333333%;
+}
+
+.line .grid-sm-push5{
+	margin-left: 41.66666666%;
+}
+
+.line .grid-sm-push6{
+	margin-left: 50%;
+}
+
+.line .grid-sm-push7{
+	margin-left: 58.33333333%;
+}
+
+.line .grid-sm-push8{
+	margin-left: 66.66666666%;
+}
+
+.line .grid-sm-push9{
+	margin-left: 75%;
+}
+
+.line .grid-sm-push10{
+	margin-left: 83.333333333%;
+}
+
+.line .grid-sm-push11{
+	margin-left: 91.666666666%;
+}
+
+.line .grid-sm-push12{
+	margin-left: 100%;
+}
+
+
+
+/* -----------------------------
+		MEDIUM DEVICES 
+--------------------------------*/
+@media screen and (min-width: 601px){
+	/*grid medium devices*/
+	.line .grid-md-1{
+		width: 8.33333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-2{
+		width: 16.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-3{
+		width: 25%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-4{
+		width: 33.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-5{
+		width: 41.66666666%;
+		box-sizing: border-box;	
+	}
+
+	.line .grid-md-6{
+		width: 50%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-7{
+		width: 58.33333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-8{
+		width: 66.66666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-9{
+		width: 75%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-10{
+		width: 83.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-11{
+		width: 91.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-md-12{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+
+	/* pushs grid medium devices */
+	.line .grid-md-push1{
+		margin-left: 8.33333333333%;
+	}
+
+	.line .grid-md-push2{
+		margin-left: 16.666666666%;
+	}
+
+	.line .grid-md-push3{
+		margin-left: 25%;
+	}
+
+	.line .grid-md-push4{
+		margin-left: 33.333333333%;
+	}
+
+	.line .grid-md-push5{
+		margin-left: 41.66666666%;
+	}
+
+	.line .grid-md-push6{
+		margin-left: 50%;
+	}
+
+	.line .grid-md-push7{
+		margin-left: 58.33333333%;
+	}
+
+	.line .grid-md-push8{
+		margin-left: 66.66666666%;
+	}
+
+	.line .grid-md-push9{
+		margin-left: 75%;
+	}
+
+	.line .grid-md-push10{
+		margin-left: 83.333333333%;
+	}
+
+	.line .grid-md-push11{
+		margin-left: 91.666666666%;
+	}
+
+	.line .grid-md-push12{
+		margin-left: 100%;
+	}
+}
+
+
+
+/* -----------------------------
+		LARGE DEVICES 
+--------------------------------*/
+@media screen and (min-width: 992px){
+	/*grid large devices*/
+	.line .grid-lg-1{
+		width: 8.33333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-2{
+		width: 16.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-3{
+		width: 25%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-4{
+		width: 33.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-5{
+		width: 41.66666666%;
+		box-sizing: border-box;	
+	}
+
+	.line .grid-lg-6{
+		width: 50%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-7{
+		width: 58.33333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-8{
+		width: 66.66666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-9{
+		width: 75%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-10{
+		width: 83.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-11{
+		width: 91.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-lg-12{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+
+	/* pushs grid large devices */
+	.line .grid-lg-push1{
+		margin-left: 8.33333333333%;
+	}
+
+	.line .grid-lg-push2{
+		margin-left: 16.666666666%;
+	}
+
+	.line .grid-lg-push3{
+		margin-left: 25%;
+	}
+
+	.line .grid-lg-push4{
+		margin-left: 33.333333333%;
+	}
+
+	.line .grid-lg-push5{
+		margin-left: 41.66666666%;
+	}
+
+	.line .grid-lg-push6{
+		margin-left: 50%;
+	}
+
+	.line .grid-lg-push7{
+		margin-left: 58.33333333%;
+	}
+
+	.line .grid-lg-push8{
+		margin-left: 66.66666666%;
+	}
+
+	.line .grid-lg-push9{
+		margin-left: 75%;
+	}
+
+	.line .grid-lg-push10{
+		margin-left: 83.333333333%;
+	}
+
+	.line .grid-lg-push11{
+		margin-left: 91.666666666%;
+	}
+
+	.line .grid-lg-push12{
+		margin-left: 100%;
+	}
+}
+
+
+
+/* -----------------------------
+		EXTRA LARGE DEVICES 
+--------------------------------*/
+@media screen and (min-width: 1600px){
+	/*grid extra large devices*/
+	.line .grid-xlg-1{
+		width: 8.33333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-2{
+		width: 16.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-3{
+		width: 25%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-4{
+		width: 33.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-5{
+		width: 41.66666666%;
+		box-sizing: border-box;	
+	}
+
+	.line .grid-xlg-6{
+		width: 50%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-7{
+		width: 58.33333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-8{
+		width: 66.66666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-9{
+		width: 75%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-10{
+		width: 83.333333333%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-11{
+		width: 91.666666666%;
+		box-sizing: border-box;
+	}
+
+	.line .grid-xlg-12{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+
+	/* pushs grid extra large devices */
+	.line .grid-xlg-push1{
+		margin-left: 8.33333333333%;
+	}
+
+	.line .grid-xlg-push2{
+		margin-left: 16.666666666%;
+	}
+
+	.line .grid-xlg-push3{
+		margin-left: 25%;
+	}
+
+	.line .grid-xlg-push4{
+		margin-left: 33.333333333%;
+	}
+
+	.line .grid-xlg-push5{
+		margin-left: 41.66666666%;
+	}
+
+	.line .grid-xlg-push6{
+		margin-left: 50%;
+	}
+
+	.line .grid-xlg-push7{
+		margin-left: 58.33333333%;
+	}
+
+	.line .grid-xlg-push8{
+		margin-left: 66.66666666%;
+	}
+
+	.line .grid-xlg-push9{
+		margin-left: 75%;
+	}
+
+	.line .grid-xlg-push10{
+		margin-left: 83.333333333%;
+	}
+
+	.line .grid-xlg-push11{
+		margin-left: 91.666666666%;
+	}
+
+	.line .grid-xlg-push12{
+		margin-left: 100%;
+	}
+}
+
+
+
+/*----------------------
+	ALIGN GRIDS
+------------------------*/
+ .grid-align-between {
+ 	justify-content: space-between;
+ }
+ .grid-align-start {
+ 	justify-content: flex-start;
+ }
+ .grid-align-end {
+ 	justify-content: flex-end;
+ }
+ .grid-align-center {
+ 	justify-content: center;
+ }
+
+
+
+ /*----------------------
+	ALIGN CONTENT
+------------------------*/
+.line .content-top-left{
+	display: flex;
+ 	justify-content: flex-start;
+ 	align-items: flex-start;
+ }
+
+.line .content-top-center{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: flex-start;
+ }
+
+.line .content-top-right{
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	align-items: flex-start;
+ }
+
+.line .content-center-left{
+ 	display: flex;
+ 	justify-content: flex-start;
+ 	align-items: center;
+ }
+
+.line .content-center-center{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+.line .content-bottom-left{
+ 	display: flex;
+ 	justify-content: flex-start;
+ 	align-items: flex-end;
+ }
+
+.line .content-bottom-center{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: flex-end;
+ }
+
+.line .content-bottom-right{
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	align-items: flex-end;
+ }
