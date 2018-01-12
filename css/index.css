@@ -1,0 +1,131 @@
+.bloco{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.bloco .linha{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.coluna-1{
+	background: #F44336;
+	flex-basis: 8.33333333333%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-2{
+	background: #E91E63;
+	flex-basis: 16.666666666%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-3{
+	background: #9C27B0;
+	flex-basis: 25%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-4{
+	background: #673AB7;
+	flex-basis: 33.333333333%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-5{
+	background: #3F51B5;
+	flex-basis: 41.66666666%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-6{
+	background: #2196F3;
+	flex-basis: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-7{
+	background: #03A9F4;
+	flex-basis: 58.33333333%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-8{
+	background: #00BCD4;
+	flex-basis: 66.66666666%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-9{
+	background: #009688;
+	flex-basis: 75%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-10{
+	background: #4CAF50;
+	flex-basis: 83.333333333%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-11{
+	background: #8BC34A;
+	flex-basis: 91.666666666%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.coluna-12{
+	background: #FFEB3B;
+	flex-basis: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
