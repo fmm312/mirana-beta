@@ -493,12 +493,19 @@
  .grid-align-between {
  	justify-content: space-between;
  }
+
+ .grid-align-around {
+ 	justify-content: space-around;
+ }
+
  .grid-align-start {
  	justify-content: flex-start;
  }
+
  .grid-align-end {
  	justify-content: flex-end;
  }
+
  .grid-align-center {
  	justify-content: center;
  }
@@ -555,3 +562,12 @@
  	justify-content: flex-end;
  	align-items: flex-end;
  }
+
+
+ .vertical-content{
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 100%;
+	overflow: hidden;
+ }
+
