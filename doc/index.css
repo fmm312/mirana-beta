@@ -64,7 +64,7 @@ header {
 	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	transition: .2s;
 	font-weight: 600;
-
+	outline: none;
 }
 
 .mirana-btn:hover{
@@ -210,6 +210,21 @@ header {
 	padding: 2px 5px;
 }
 
+
+
+
+/*--------------------
+		ALIGNMENTS
+----------------------*/
+.box-align{
+	background: #f1f1f1;
+}
+
+.box-align div{
+	background:  #673AB7;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
 
 
 /*--------------------
