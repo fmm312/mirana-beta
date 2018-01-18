@@ -247,9 +247,9 @@ header {
 ----------------------*/
 footer{
 	background: #2b303b;
-	text-align: center;
 	padding: 20px 0px;
-	margin-top: 80px;	
+	margin-top: 80px;
+	text-align: center;	
 }
 
 footer p , footer a{
