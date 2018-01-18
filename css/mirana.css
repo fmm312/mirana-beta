@@ -29,9 +29,6 @@
 	color: #555555;
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-weight: 700;
-}
 h1{
 	font-size: 40px;
 }
@@ -50,7 +47,6 @@ h5{
 h6{
 	font-size: 14px;
 }
-
 
 
 
@@ -120,56 +116,6 @@ h6{
 }
 
 
-/* pushs grid small devices */
-.block .line .grid-sm-push1{
-	margin-left: 8.33333333333%;
-}
-
-.block .line .grid-sm-push2{
-	margin-left: 16.666666666%;
-}
-
-.block .line .grid-sm-push3{
-	margin-left: 25%;
-}
-
-.block .line .grid-sm-push4{
-	margin-left: 33.333333333%;
-}
-
-.block .line .grid-sm-push5{
-	margin-left: 41.66666666%;
-}
-
-.block .line .grid-sm-push6{
-	margin-left: 50%;
-}
-
-.block .line .grid-sm-push7{
-	margin-left: 58.33333333%;
-}
-
-.block .line .grid-sm-push8{
-	margin-left: 66.66666666%;
-}
-
-.block .line .grid-sm-push9{
-	margin-left: 75%;
-}
-
-.block .line .grid-sm-push10{
-	margin-left: 83.333333333%;
-}
-
-.block .line .grid-sm-push11{
-	margin-left: 91.666666666%;
-}
-
-.block .line .grid-sm-push12{
-	margin-left: 100%;
-}
-
-
 
 /* -----------------------------
 		GRID MEDIUM DEVICES 
@@ -234,56 +180,6 @@ h6{
 	.block .line .grid-md-12{
 		width: 100%;
 		box-sizing: border-box;
-	}
-
-
-	/* pushs grid medium devices */
-	.block .line .grid-md-push1{
-		margin-left: 8.33333333333%;
-	}
-
-	.block .line .grid-md-push2{
-		margin-left: 16.666666666%;
-	}
-
-	.block .line .grid-md-push3{
-		margin-left: 25%;
-	}
-
-	.block .line .grid-md-push4{
-		margin-left: 33.333333333%;
-	}
-
-	.block .line .grid-md-push5{
-		margin-left: 41.66666666%;
-	}
-
-	.block .line .grid-md-push6{
-		margin-left: 50%;
-	}
-
-	.block .line .grid-md-push7{
-		margin-left: 58.33333333%;
-	}
-
-	.block .line .grid-md-push8{
-		margin-left: 66.66666666%;
-	}
-
-	.block .line .grid-md-push9{
-		margin-left: 75%;
-	}
-
-	.block .line .grid-md-push10{
-		margin-left: 83.333333333%;
-	}
-
-	.block .line .grid-md-push11{
-		margin-left: 91.666666666%;
-	}
-
-	.block .line .grid-md-push12{
-		margin-left: 100%;
 	}
 }
 
@@ -353,56 +249,6 @@ h6{
 		width: 100%;
 		box-sizing: border-box;
 	}
-
-
-	/* pushs grid large devices */
-	.block .line .grid-lg-push1{
-		margin-left: 8.33333333333%;
-	}
-
-	.block .line .grid-lg-push2{
-		margin-left: 16.666666666%;
-	}
-
-	.block .line .grid-lg-push3{
-		margin-left: 25%;
-	}
-
-	.block .line .grid-lg-push4{
-		margin-left: 33.333333333%;
-	}
-
-	.block .line .grid-lg-push5{
-		margin-left: 41.66666666%;
-	}
-
-	.block .line .grid-lg-push6{
-		margin-left: 50%;
-	}
-
-	.block .line .grid-lg-push7{
-		margin-left: 58.33333333%;
-	}
-
-	.block .line .grid-lg-push8{
-		margin-left: 66.66666666%;
-	}
-
-	.block .line .grid-lg-push9{
-		margin-left: 75%;
-	}
-
-	.block .line .grid-lg-push10{
-		margin-left: 83.333333333%;
-	}
-
-	.block .line .grid-lg-push11{
-		margin-left: 91.666666666%;
-	}
-
-	.block .line .grid-lg-push12{
-		margin-left: 100%;
-	}
 }
 
 
@@ -470,57 +316,7 @@ h6{
 	.block .line .grid-xlg-12{
 		width: 100%;
 		box-sizing: border-box;
-	}
-
-
-	/* pushs grid extra large devices */
-	.block .line .grid-xlg-push1{
-		margin-left: 8.33333333333%;
-	}
-
-	.block .line .grid-xlg-push2{
-		margin-left: 16.666666666%;
-	}
-
-	.block .line .grid-xlg-push3{
-		margin-left: 25%;
-	}
-
-	.block .line .grid-xlg-push4{
-		margin-left: 33.333333333%;
-	}
-
-	.block .line .grid-xlg-push5{
-		margin-left: 41.66666666%;
-	}
-
-	.block .line .grid-xlg-push6{
-		margin-left: 50%;
-	}
-
-	.block .line .grid-xlg-push7{
-		margin-left: 58.33333333%;
-	}
-
-	.block .line .grid-xlg-push8{
-		margin-left: 66.66666666%;
-	}
-
-	.block .line .grid-xlg-push9{
-		margin-left: 75%;
-	}
-
-	.block .line .grid-xlg-push10{
-		margin-left: 83.333333333%;
-	}
-
-	.block .line .grid-xlg-push11{
-		margin-left: 91.666666666%;
-	}
-
-	.block .line .grid-xlg-push12{
-		margin-left: 100%;
-	}
+	}	
 }
 
 
@@ -556,33 +352,3 @@ h6{
  .vertical-content{
  	flex-direction: column;
  }
-
-
-
-/*----------------------
-		COMPONENTS
-------------------------*/
-.btn-white{
-	padding: 10px 30px;
-	background: #ffffff;
-	border-radius: 40px;
-	border-color: transparent;
-	cursor: pointer;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	transition: .5s;
-	font-weight: 600;
-
-}
-
-.btn-white:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	-webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	-moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	-o-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	-ms-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	opacity: .85;
-}

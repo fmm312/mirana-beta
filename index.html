@@ -16,6 +16,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"> 
     <script src="https://use.fontawesome.com/3da998f1ef.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   
 
 </head>
@@ -29,9 +34,10 @@
                 <div class="grid-lg-8 title-header">
                     <h1>Mirana <span style="color: #F44336">CSS</span> Framework</h1>
                     <h4>Simplicidade e leveza...</h4>
-                    <button class="btn-white">Download</button>
+                    <button class="mirana-btn" >Download</button>
                 </div>
             </div>
+            
         </div>
         
     </header>
@@ -39,9 +45,9 @@
     <nav id="navbar" class="mirana-navbar-sticky">
         <div class="line align-between">
             <a href="#introdution">Introdução</a>
-            <a href="#">Como Usar</a>
-            <a href="#">Grid</a>
-            <a href="#">Componentes</a>                             
+            <a href="#install">Instalação</a>
+            <a href="#sistem-grid">Grid</a>
+            <a href="#sistem-position">Alinhamento</a>                             
          </div>    
     </nav>
 
@@ -53,11 +59,12 @@
 
             <div class="line align-center">
                 <div class="grid-lg-10">
-                    <p><strong>Mirana</strong> é uma ferramenta que tem por objetivo facilitar o desenvolvimento de layouts responsivos, no menor espaço de tempo possível, o que proporciona ao desenvolvedor uma possibilidade de aumentar sua produtividade, o diferencial do framework é sua simplicidade, possui classes bem intuitívas e é bem leve.</p>
+                    <p><strong>Mirana</strong> é uma ferramenta que tem por objetivo facilitar o desenvolvimento de layouts responsivos, no menor espaço de tempo possível, o que proporciona ao desenvolvedor um aumento de sua produtividade. O diferencial do framework é sua simplicidade, possui classes intuitívas e é bem leve. Os <span class="text-code">grids</span> são compostos por 12 níveis, estes devem ficar dentro de linhas <span class="text-code">.line</span> que por sua vez ficam dentro de blocos de conteúdo <span class="text-code">.block</span>, a codificação deve, de preferência, seguir essa hierarquia de classes, para um alinhamento adequado do conteúdo.                        
+                    </p>
                 </div>                 
             </div>
 
-            <div class="line align-around">
+            <div class="line align-between intro2">
                 <div class="grid-lg-3 box-description">
                     <i class="fa fa-leaf" aria-hidden="true"></i>
                     <h4>Leve</h4>
@@ -65,7 +72,7 @@
                 </div>
 
                 <div class="grid-lg-3 box-description">
-                    <i class="fa fa-mobile" aria-hidden="true" style="padding: 20px 35px"></i>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
                     <h4>100% responsivo</h4>
                     <p>Sistema de grid baseado no flexbox layout e inspirado no bootstrap</p>
                 </div>
@@ -75,20 +82,26 @@
                     <h4>Intuitívo</h4>
                     <p>Classe fáceis de decorar e com nomenclatura bem intuitíva</p>
                 </div>
+
+                <div class="grid-lg-3 box-description">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <h4>Open Source</h4>
+                    <p>A ferramenta é gratuita e todo o código está disponibilizado no Github</p>
+                </div>
             </div> 
         </div>               
     </section> 
 
 
-    <section class="tutorial">
+    <section class="install" id="install">
         <div class="block">
             <div class="line align-center title-section">
-                <h2>Como usar</h2>
+                <h2>Instalação</h2>
             </div>
 
             <div class="line align-around">
                 <div class="grid-lg-10">
-                    <p>Faça o download, adicione a pasta CSS na raiz do seu projeto, por último coloque o código no head abaixo do seu html</p>
+                    <p>Faça o <a href="">download</a>, adicione a pasta CSS na raiz do seu projeto, por último coloque o código abaixo no <span class="text-code">head</span> do html</p>
                 </div>
       
                 <code class="code-edit grid-lg-8 grid-sm-12">
@@ -102,10 +115,35 @@
     </section>
 
 
-    <section class="sistem-position">
+    <section class="sistem-grid" id="sistem-grid">
         <div class="block">
             <div class="line align-center title-section">
                 <h2>Grid</h2>                
+            </div>
+
+            <div class="line align-center">
+                <div class="grid-lg-5 box-grid">
+                    <h2>sm</h2>
+                    <h5>smarthphones</h5>
+                    <span class="text-code">@media screen and (max-width: 600px)</span>
+                </div>
+                <div class="grid-lg-5 box-grid">
+                    <h2>md</h2>
+                    <h5>tablets/ipads</h5>
+                    <span class="text-code">@media screen and (min-width: 601px)</span>
+                </div>
+    
+                <div class="grid-lg-5 box-grid">
+                    <h2>lg</h2>
+                    <h5>desktops/laptops</h5>
+                    <span class="text-code">@media screen and (min-width: 992px)</span>
+                </div>
+
+                <div class="grid-lg-5 box-grid">
+                    <h2>xlg</h2>
+                    <h5>telas grandes</h5>
+                    <span class="text-code">@media screen and (min-width: 1600px)</span>
+                </div>
             </div>
 
             <div class="line align-center">              
@@ -165,7 +203,7 @@
     </section>
 
 
-    <section class="sistem-position">
+    <section class="sistem-position" id="sistem-position">
         <div class="block">
             <div class="line align-center title-section">
                 <h2>Alinhamento</h2>                
@@ -174,30 +212,34 @@
             <div class="line align-center">              
                 <code class="code-edit grid-lg-8 grid-sm-12">
                     &lt;!--HTML--&gt;<br>
-                    &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-start"</span>&gt;<br>
-                        <span style="margin-left: 30px;"></span> &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                    &lt;/<span class="code-red">div</span>&gt; <br>
+                     &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"block"</span>&gt;<br>
+                     <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-start"</span>&gt;<br>
+                         <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span> &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                    <span style="margin-left: 30px;"></span> &lt;/<span class="code-red">div</span>&gt; <br>
 
-                    &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-end"</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span> &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
-                    &lt;/<span class="code-red">div</span>&gt;<br>
+                     <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-end"</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span> &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
+                     <span style="margin-left: 30px;"></span>&lt;/<span class="code-red">div</span>&gt;<br>
 
-                   &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-center"</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                        <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                    &lt;/<span class="code-red">div</span>&gt;<br>
+                    <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-center"</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                         <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                     <span style="margin-left: 30px;"></span>&lt;/<span class="code-red">div</span>&gt;<br>
 
-                    &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-around"</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
-                    &lt;/<span class="code-red">div</span>&gt;<br>
+                     <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-around"</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
+                    <span style="margin-left: 30px;"></span> &lt;/<span class="code-red">div</span>&gt;<br>
 
-                    &lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-between"</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
-                         <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
-                    &lt;/<span class="code-red">div</span>&gt;<br>
+                     <span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"line align-between"</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br>
+                          <span style="margin-left: 30px;"></span><span style="margin-left: 30px;"></span>&lt;<span class="code-red">div</span> <span class="code-green">class</span>=<span class="code-yellow">"grid-sm-3 grid-md-3 grid-lg-3 grid-xlg-3"</span>&gt;3 grids&lt;/<span class="code-red">div</span>&gt;<br> 
+                     <span style="margin-left: 30px;"></span>&lt;/<span class="code-red">div</span>&gt;<br>
+
+                     &lt;/<span class="code-red">div</span>&gt;<br><br>
+
                 </code>           
             </div>
 
@@ -235,6 +277,14 @@
             <div class="line">
                 <div class="grid-lg-12">
                     <p>Desenvolvido por <a href="#">Felipe Menezes</a></p>
+                </div>
+            </div>
+
+            <div class="line align-center">
+                <div class="grid-lg-4">
+                    <a class="github-button" href="https://github.com/fmm312/mirana/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork fmm312/mirana on GitHub">Fork</a>
+
+                    <a class="github-button" href="https://github.com/fmm312/mirana" data-icon="octicon-star" data-size="large" aria-label="Star fmm312/mirana on GitHub">Star</a>
                 </div>
             </div>
         </div>

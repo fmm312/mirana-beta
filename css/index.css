@@ -3,6 +3,7 @@
 ----------------------*/
 *{
 	font-family: 'Open Sans', sans-serif;
+	color: #555555;
 }
 
 section{
@@ -19,8 +20,9 @@ section{
 	width: 70px;
 	height: 6px;
 	background: #673AB7;
-	margin: 10px auto;
+	margin: 10px auto;	
 }
+
 
 
 
@@ -46,6 +48,32 @@ header {
 
 .title-header h4{
 	color: #ffffff;
+}
+
+
+.mirana-btn{
+	padding: 10px 30px;
+	background: #ffffff;
+	border-radius: 2px;
+	border-color: transparent;
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: .2s;
+	font-weight: 600;
+
+}
+
+.mirana-btn:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-o-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-ms-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	opacity: .85;
 }
 
 
@@ -114,7 +142,6 @@ header {
 ----------------------*/
 .box-description{
 	padding: 15px 10px;
-	margin: 15px;
 	text-align: center;	
 }
 
@@ -126,6 +153,17 @@ header {
 	padding: 20px;
 }
 
+.fa-github{
+	padding: 21px 25px!important;
+}
+
+.fa-mobile{
+	padding: 20px 35px!important;
+}
+
+.intro2{
+	margin-top: 35px;
+}
 
 
 
@@ -155,6 +193,21 @@ header {
 	color: #ffffff;
 	font-weight: 600;
 	border: 2px solid #ffffff;
+}
+
+.box-grid{
+	margin-bottom: 70px;
+}
+
+.box-grid h5{
+	margin-bottom: 0px;
+	opacity: .6;
+}
+
+.text-code{
+	background: #f1f1f1;
+	color: #f92665;
+	padding: 2px 5px;
 }
 
 
