@@ -110,6 +110,7 @@ header {
   width: 22%;
   text-transform: uppercase;
   font-weight: 600;
+  transition: all .2s ease-out;
 }
 
 .mirana-navbar-sticky a:hover {
@@ -171,30 +172,6 @@ header {
 		GRIDS
 ----------------------*/
 
-.grid3{
-	background: #3F51B5;
-	padding: 15px;
-	color: #ffffff;
-	font-weight: 600;
-	border: 2px solid #ffffff;
-}
-
-.grid4{
-	background: #E91E63;
-	padding: 15px;
-	color: #ffffff;
-	font-weight: 600;
-	border: 2px solid #ffffff;
-}
-
-.grid6{
-	background: #03A9F4;
-	padding: 15px;
-	color: #ffffff;
-	font-weight: 600;
-	border: 2px solid #ffffff;
-}
-
 .box-grid{
 	margin-bottom: 70px;
 }
@@ -210,21 +187,32 @@ header {
 	padding: 2px 5px;
 }
 
+.grid-box{
+	background: #673AB7;
+	padding: 26px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 2px solid #ffffff;
+}
+
 
 
 
 /*--------------------
 		ALIGNMENTS
 ----------------------*/
-.box-align{
-	background: #f1f1f1;
+.align-box{
+	background: #673AB7;
+	padding: 10px;
+	margin-bottom: 50px;
 }
 
-.box-align div{
-	background:  #673AB7;
-	border: 1px solid #ffffff;
-	color: #ffffff;
+.align-grid-ex{
+	height: 50px;
+	background: #ffffff;
+	margin: 5px;
 }
+
 
 
 /*--------------------
