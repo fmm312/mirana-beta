@@ -6,9 +6,9 @@ Mirana é uma ferramenta que tem por objetivo facilitar o desenvolvimento de lay
 
 ## Características
 - Leve: Arquivo minificado com menos de 4kb
-- 100% responsivo: Sistema de grid baseado no flexbox layout e inspirado no bootstrap
+- Responsivo: Sistema de grid baseado no flexbox layout e inspirado no bootstrap
 - Intuitívo: Classe fáceis de decorar e com nomenclatura bem intuitíva
-- Open Source: A ferramenta é gratuita e todo o código está disponibilizado no Github
+- 100% Open Source: A ferramenta é gratuita e todo o código está disponibilizado no Github
 
 ## Instalação
 Faça o download, adicione a pasta CSS na raiz do seu projeto, por último coloque o código abaixo no head do html
