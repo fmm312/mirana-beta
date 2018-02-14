@@ -35,4 +35,4 @@ Faça o download, adicione a pasta CSS na raiz do seu projeto, por último coloq
 
 ----------------------------------------
 
-Criado por [Felipe Menezes](https://fmm312.github.io/)
+Criado por [Felipe Menezes Magalhães](https://fmm312.github.io/)
