@@ -31,3 +31,8 @@ Faça o download, adicione a pasta CSS na raiz do seu projeto, por último coloq
 - .align-center
 - .align-around
 - .align-between
+
+
+----------------------------------------
+
+Criado por [Felipe Menezes](https://fmm312.github.io/)
