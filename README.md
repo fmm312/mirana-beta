@@ -1,7 +1,7 @@
 # Mirana CSS Framework
 
 ## Introdução
-Mirana é uma ferramenta que tem por objetivo facilitar o desenvolvimento de layouts responsivos, no menor espaço de tempo possível, o que proporciona ao desenvolvedor um aumento de sua produtividade. O diferencial do framework é sua simplicidade, possui classes intuitívas e é bem leve. Os grids são compostos por 12 níveis, estes devem ficar dentro de linhas .line que por sua vez ficam dentro de blocos de conteúdo .block, a codificação deve, de preferência, seguir essa hierarquia de classes, para um alinhamento adequado do conteúdo.  
+Mirana é uma ferramenta que tem o objetivo de facilitar o desenvolvimento de layouts responsivos, no menor espaço de tempo possível, o que proporciona ao desenvolvedor um aumento de sua produtividade. O diferencial do framework é sua simplicidade, possui classes intuitívas e é bem leve. Os grids são compostos por 12 níveis, estes devem ficar dentro de linhas .line que por sua vez ficam dentro de blocos de conteúdo .block, a codificação deve, de preferência, seguir essa hierarquia de classes, para um alinhamento adequado do conteúdo.  
 [Ver documentação](https://fmm312.github.io/mirana/)
 
 ## Características
