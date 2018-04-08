@@ -27,31 +27,25 @@
         <a href="https://github.com/fmm312/mirana" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a> 
 
         <div class="block">
-            <div class="line align-center">
-                <div class="grid-lg-8 title-header">
+            <div class="line">
+                <div class="grid-lg-5 grid-sm-12 title-header">
                     <h1>Mirana <span style="color: #F44336">CSS</span> Framework</h1>
                     <h4>Simplicidade e leveza...</h4>
                     <a href="https://github.com/fmm312/mirana" target="_blank"><button class="mirana-btn">Download</button></a>
                 </div>
-            </div>
-            
-        </div>
-        
+
+                 <div class="grid-lg-7 header-img">
+                    <img src="img/Responsive-Web.png">
+                </div>
+            </div>            
+        </div>        
     </header>
 
-    <nav id="navbar" class="mirana-navbar-sticky">
-        <div class="line align-between">
-            <a href="#introdution">Introdução</a>
-            <a href="#install">Instalação</a>
-            <a href="#sistem-grid">Grid</a>
-            <a href="#sistem-position">Alinhamento</a>                             
-         </div>    
-    </nav>
 
     <section id="introdution" class="introdution">
         <div class="block">
             <div class="line align-center title-section">
-                <h2>Introdução</h2>
+                <h2 style="line-height: 35px;">Bem vindo. <span style="font-weight: 400">Conheça o mirana framework...</span></h2>
             </div>
 
             <div class="line align-center">
@@ -68,11 +62,6 @@
                     <p>Arquivo minificado com menos de 4kb</p>
                 </div>
 
-                <div class="grid-md-6 grid-lg-3 box-description">
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <h4>100% responsivo</h4>
-                    <p>Sistema de grid baseado no flexbox layout e inspirado no bootstrap</p>
-                </div>
 
                 <div class="grid-md-6 grid-lg-3 box-description">
                     <i class="fa fa-code" aria-hidden="true"></i>
@@ -265,24 +254,6 @@
         </div>
     </footer>
 
-
-    <script>
-
-        window.onscroll = function() {
-            myFunction()
-        };
-
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-    </script>
 </body>
 
 </html>
